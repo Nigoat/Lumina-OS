@@ -4,7 +4,7 @@ lumina is an operating system made from scratch, 64 bit opeating system that foc
 
 LICENSE: GPL 3.0
 
-# BOOT LOADER NOT DONE YET
+# BOOT LOADER DONE, NEEDS CMAKELIST FILES
 
 # SUPPORT MY WORK!
 **[DONATE!](https://buy.polar.sh/polar_cl_24Yb1EYlgCEmTqQxeMoN8cuvxqqw8tpwJmHqA1tXXw1)**

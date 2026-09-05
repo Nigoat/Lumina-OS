@@ -109,7 +109,7 @@ load_kernel_image:
     mov es, ax
     xor bx, bx
     mov ah, 0x02
-    mov al, 64
+    mov al, 9
     mov ch, 0
     mov cl, 34
     mov dh, 0
@@ -209,7 +209,7 @@ align 4
 kernel_dap:
     db 0x10             
     db 0x00            
-    dw 64            
+    dw 9          
     dw 0x0000        
     dw 0x2000           
     dq 33                

@@ -53,7 +53,7 @@ extern "C" __attribute__((section(".text._start"))) void _start(const struct Lum
 
     outw(0x604, 0x2000);
 
-    /*Halt CPU*/
+    /* Halt CPU */
     for (;;) {
         __asm__ volatile("cli; hlt");
     }
